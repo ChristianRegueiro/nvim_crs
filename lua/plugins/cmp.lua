@@ -3,7 +3,7 @@ return {
 	{ "hrsh7th/nvim-cmp" },
 
 	-- Fuente: integración con LSP
-	{ "hrsh7th/cmp-nvim-lsp" },
+	{ "hrsh7th/cmp-nvim-lsp",    lazy = false },
 
 	-- Fuente: buffer actual
 	{ "hrsh7th/cmp-buffer" },

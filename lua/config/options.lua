@@ -36,3 +36,5 @@ vim.opt.termguicolors = true
 -- Reduce el tiempo para que el cursor se sienta más ágil
 vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
+
+vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
