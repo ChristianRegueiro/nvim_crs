@@ -55,10 +55,8 @@ return {
 			"nvim-tree/nvim-web-devicons", -- ya lo tienes
 			"MunifTanjim/nui.nvim",
 		},
+		lazy = false,
 		cmd = "Neotree",
-		keys = {
-			{ "<leader>e", "<cmd>Neotree toggle<cr>", desc = "Explorador de archivos" },
-		},
 		config = function()
 			require("neo-tree").setup({
 				close_if_last_window = true,

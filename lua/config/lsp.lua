@@ -6,7 +6,6 @@ require("mason-lspconfig").setup({
 	ensure_installed = {
 		"lua_ls",
 		"pyright",
-		"tsserver",
 		"jsonls",
 		"bashls",
 		"html",
